@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  background-color: #6c63ff;
+}
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+
+.welcome-section {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-bottom: 2px solid #e0e0e0;
+}
+.welcome-section h1 {
+  font-size: 2.5rem;
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
+.welcome-section p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+
+.welcome-image {
+  max-width: 300px;
+  margin: 2rem auto;
+  display: block;
+}
+
+
+.not-found {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.not-found h2 {
+  font-size: 2rem;
+  color: #dc3545;
+}
+.not-found p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+
+.footer {
+  background-color: #6c63ff;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+}
+.footer a {
+  color: #ffffff;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+.footer a:hover {
+  color: #dcdcdc;
+}
+
+.footer small {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
