@@ -9,10 +9,6 @@ const MyNav = () => {
   const { selectedCategory: category, setSelectedCategory: setCategory, currentSearchValue, setCurrentSearchValue, setActivePage: setActive } = useSearchValue();
   const navigate = useNavigate();
 
-  // Removed useEffect that navigates to '/' on category change to prevent unwanted redirects
-  // useEffect(() => {
-  //   navigate('/');
-  // }, [category, navigate]);
 
   const handleCategoryChange = (event) => {
     setCategory(event.target.value);

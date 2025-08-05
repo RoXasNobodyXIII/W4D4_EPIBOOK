@@ -40,7 +40,7 @@ function AddComment({ onCommentAdded }) {
   const { token } = useToken();
 
   const postOrUpdateComment = async () => {
-    const isEditing = !!formData._id; //così diventa booleano vero
+    const isEditing = !!formData._id; 
     const url = isEditing ? `${putDeleteEP}${formData._id}` : postEP;
     const method = isEditing ? "PUT" : "POST";
 
@@ -143,3 +143,4 @@ function AddComment({ onCommentAdded }) {
 }
 
 export default AddComment;
+ 

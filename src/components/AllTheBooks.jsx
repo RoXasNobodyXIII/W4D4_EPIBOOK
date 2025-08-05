@@ -25,7 +25,7 @@ const AllTheBooks = () => {
   return (
     <div className="container my-4">
       <div className="mb-4">
-        {/* Removed local search input as search is handled in navbar */}
+        {}
       </div>
       <div className="row">
         {filteredBooks.map((book) => (

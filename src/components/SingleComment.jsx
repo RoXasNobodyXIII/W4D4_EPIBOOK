@@ -6,7 +6,7 @@ const SingleComment = ({ comment, onCommentDeleted, onCommentUpdated }) => {
       <p><strong>{comment.author}</strong> says:</p>
       <p>{comment.comment}</p>
       <p>Rating: {comment.rate} / 5</p>
-      {/* Add buttons or handlers for delete/update if needed */}
+      {}
     </div>
   );
 };
